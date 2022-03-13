@@ -1,0 +1,34 @@
+*
+{
+      box-sizing: border-box;
+      margin: 0 ;
+      padding: 0 ;
+    }
+    h1{text-transform: capitalize;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+    h2{font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+    header{background-color: rgb(168, 189, 196);}
+    div.container {border: 5px solid red;
+    width: 80%;
+  margin: 0 auto;}
+    .hero img{width: 100%;}
+    div.right,div.middle,div.left {border: 3px solid black;
+    width: 30%;
+    }
+    img{width: 100%;}
+    aside{overflow: hidden;
+    display: flex;
+  justify-content: space-around;}
+    nav{background-color: lightslategray;}
+    ul{text-align: center;
+    }
+    li{display: inline-block;
+    width: 150px;
+  border: 2px solid white;
+  line-height: 3em ;}
+    a{text-decoration: none;
+    color: lightblue;
+  display: block;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+text-transform: uppercase;}
+footer{font-family: 'serif';}
